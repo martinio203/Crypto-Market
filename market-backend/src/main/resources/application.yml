@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://db:5432/market_base
+    username: admin
+    password: admin
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        format_sql: true
+    database: postgresql
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+
+api:
+  key: ad6c9df3-a96b-45f5-a610-326fad7b7355
+
+
+
+
+
+
+
